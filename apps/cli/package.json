@@ -12,7 +12,7 @@
     "infra"
   ],
   "scripts": {
-    "build": "tsdown",
+    "build": "node init && tsdown",
     "check": "tsc --noEmit",
     "clean": "rm -rf dist"
   },
